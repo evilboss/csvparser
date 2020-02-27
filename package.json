@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jr Reyes <jr.evilboss@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
 }
