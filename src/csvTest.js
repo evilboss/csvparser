@@ -4,4 +4,6 @@ csv()
 	.fromFile(csvFilePath)
 	.then((jsonObj) => {
 		console.log(jsonObj);
-	});
+	}).catch(error => {
+	console.error('error occured');
+});
